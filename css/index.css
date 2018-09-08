@@ -1,0 +1,202 @@
+/*sub-banner部分开始*/
+	.sub-banner {
+		position: relative;
+	}
+	.sub-banner a {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 625px;
+		background: url(../images/subbanner.jpg) no-repeat center top;
+	}
+/*sub-banner部分结束*/
+
+/*main部分开始*/
+	.main {
+		position: relative;
+	}
+	.main-slider {
+		width: 730px;
+		height: 454px;
+		position: relative;
+		margin: 12px 10px 0 220px;
+	}
+	.main-slider ul {
+		position: absolute;
+		left: 50%;
+		margin-left: -66px;
+		bottom: 8px;
+	}
+	.main-slider li {
+		float: left;
+	}
+	.main-slider li a {
+		color: #fff;
+		display: block;
+		width: 18px;
+		height: 18px;
+		margin: 0 2px;
+		text-align: center;
+		border-radius: 50%;
+		background-color: #3E3E3E;
+		font: 400 12px/18px "宋体";
+	}
+	.main-slider .content {
+		background-color: #C81623;
+	}
+	.arrow a {
+		position: absolute;
+		top: 50%;
+		width: 28px;
+		height: 62px;
+		margin-top: -31px;
+		color: #fff;
+		text-align: center;
+		border-radius: 5px;
+		font: 400 22px/62px "simsum";
+		background: rgba(0,0,0,0.3);
+	}
+	.arrow a:hover {
+		background: rgba(0,0,0,0.6);
+	}
+	.arrow-l {
+		left: 0;
+	}
+	.arrow-r {
+		right: 0;
+	}
+	.main-news {
+		width: 250px;
+		height: 454px;
+		margin-top: 12px;
+	}
+	.main-news-top {
+		width: 248px;
+		height: 372px;
+		margin-bottom: 5px;
+		border: 1px solid #E4E4E4;
+	}
+	.main-news-top-faster {
+		height: 32px;
+		line-height: 32px;
+		padding: 0 15px;
+		border-bottom: 1px dotted #E8E8E7;
+	}
+	.main-news-top-faster h2 {
+		font: 400 16px/32px "microsoft yahei";
+	}
+	.main-news-top-faster a {
+		font-family: "consolas";
+	}
+	.main-news-top-con {
+		height: 125px;
+		padding: 5px 0 0 15px;
+		border-bottom: 1px dashed #E4E4E4;
+	}
+	.main-news-top-con a {
+		height: 24px;
+		line-height: 24px;
+	}
+	.main-news-top-con span {
+		padding-right: 4px;
+		font-weight: 700; 
+	}
+	.main-news-top-opt {
+		height: 208px;
+		overflow: hidden;
+	}
+	.main-news-top-opt ul {
+		width: 252px;
+	}
+	.main-news-top-opt li {
+		float: left;
+		margin-top: -1px;
+		margin-left: -1px;
+		border: 1px solid #E4E4E4;
+		border-top: none;
+		position: relative;
+	}
+	.main-news-top-opt a {
+		display: block;
+		width: 62px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		padding-top: 40px;
+	}
+	.main-news-top-opt i {
+		position: absolute;
+		top: 13px;
+		left: 18px;
+		width: 25px;
+		height: 25px;
+		background: url("../images/fly.png") no-repeat 0 0;
+	}
+	.main-news-top-opt .mian-news-top-opt-icon2 {
+		background-position: 0 -25px;
+	}
+	.main-news-top-opt .mian-news-top-opt-icon3 {
+		background-position: 0 -50px;
+	}
+	.main-news-top-opt .mian-news-top-opt-icon4 {
+		background-position: 0 -75px;
+	}
+	.main-news-top-opt .mian-news-top-opt-icon5 {
+		background-position: 0 -100px;
+	}
+	.main-news-top-opt .mian-news-top-opt-icon6 {
+		background-position: 0 -125px;
+	}
+	.main-news-top-opt .mian-news-top-opt-icon7 {
+		background-position: 0 -150px;
+	}
+	.main-news-top-opt .mian-news-top-opt-icon8 {
+		background-position: 0 -175px;
+	}
+	.main-news-top-opt .mian-news-top-opt-icon9 {
+		background-position: 0 -200px;
+	}
+	.free {
+		position: relative;
+	}
+	.free span {
+		position: absolute;
+		top:0px;
+		left: 45px;
+		width: 14px;
+		height: 14px;
+		background: url(../images/free.png) no-repeat;
+	}
+	.main-news-bottom a {
+		display: block;
+		width: 250px;
+		height: 76px;
+	}
+	.main-bottom {
+		margin-top: 10px;
+	}
+	.main-bottom-left {
+		width: 210px;
+		height: 151px;
+	}
+	.main-bottom-right {
+		width: 1000px;
+		overflow: hidden;
+		position: relative;
+		       					  /*a盒子中左右两个盒子都浮动，最好都给宽高；否则会出现意外，假设右边盒子里有li，
+								  li有宽度，所有的li和左盒子总宽超出a盒子宽度，则整个右盒子会在下一行，而不是
+								  超出的部分另起一行
+								 */
+	}
+	.main-bottom-right ul {
+		width: 405%;
+	}
+	.main-bottom-right li {
+		width: 250px;
+		height: 164px;
+		margin-right: 1px;
+		float: left;
+	}
+	
+/*main部分结束
